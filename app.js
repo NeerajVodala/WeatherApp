@@ -14,7 +14,7 @@ const errorMessage = document.querySelector(".error");
 function errorhandler(error) {
     weather.style.display = "none";
     errorMessage.style.display = "block";
-    errorMessage.innerText = "Error: Invalid city name";
+    errorMessage.innerText = "Error: Invalid input";
 }
 
 
@@ -37,7 +37,7 @@ function display() {
 
             cityWeather.innerText = "WEATHER IN " + city.toUpperCase();
 
-            actualTemperature.innerText = "TEMPERATURE: " + Math.round(temp) + "° C";
+            actualTemperature.innerText = Math.round(temp) + "°C";
 
             feelsTemperature.innerText = "FEELS LIKE: " + Math.round(feelsliketemp) + "° C";
 

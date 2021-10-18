@@ -22,23 +22,32 @@ body {
     opacity: 0.7;
     color: white;
     border-radius: 2rem;
+    width: 100%;
+    max-width: 420px;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .search-box {
-    padding: 0.5em 0.75em;
-    margin-bottom: 1em;
+    padding: 0.52em 1em;
+    margin: 0.5em;
     border-radius: 2rem;
     background: transparent;
     color: white;
     outline: none;
     border: 1px solid grey;
+    width: calc(100% - 100px) ;
 }
 
 .search-button {
-    border-radius: 2rem;
+    border-radius: 50%;
     outline: none;
-    height: 42px;
-    width: 42px;
+    height: 41px;
+    width: 41px;
     cursor: pointer;
     border: 1px solid grey;
     color: white;
@@ -49,18 +58,18 @@ button:hover {
     background: #7c7c7c6b;
 }
 
-
 ::placeholder {
     color: white;
 }
 
-
 .weather {
     display: none;
+    padding-left: 1em ;
 }
 
 .error {
     display: none;
+    padding-left: 1em
 }
 
 .weather-discription-box {
