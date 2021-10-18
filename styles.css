@@ -46,8 +46,8 @@ body {
 .search-button {
     border-radius: 50%;
     outline: none;
-    height: 41px;
-    width: 41px;
+    height: 2.36em;
+    width: 2.36em;
     cursor: pointer;
     border: 1px solid grey;
     color: white;
