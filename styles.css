@@ -33,6 +33,7 @@ body {
   }
 
 .search-box {
+    
     padding: 0.52em 1em;
     margin: 0.5em;
     border-radius: 2rem;
@@ -40,14 +41,15 @@ body {
     color: white;
     outline: none;
     border: 1px solid grey;
-    width: calc(100% - 100px) ;
+    width: calc(100% - 150px) ;
+    font-size: 110%;
 }
 
 .search-button {
     border-radius: 50%;
     outline: none;
-    height: 2.36em;
-    width: 2.36em;
+    height: 3.5em;
+    width: 3.5em;
     cursor: pointer;
     border: 1px solid grey;
     color: white;
