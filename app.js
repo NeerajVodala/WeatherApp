@@ -10,19 +10,16 @@ const windSpeed = document.querySelector(".weather-windspeed");
 const weather = document.querySelector(".weather");
 const errorMessage = document.querySelector(".error");
 
-
 function errorhandler(error) {
     weather.style.display = "none";
     errorMessage.style.display = "block";
     errorMessage.innerText = "Error: Invalid input";
+    document.body.style.backgroundImage =
+        "url('https://source.unsplash.com/1600x900/?nature')";
 }
-
 
 function display() {
     const city = searchBox.value;
-    document.body.style.backgroundImage =
-        "url('https://source.unsplash.com/1600x900/?" + city + "')";
-
     fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=8153c938a33762c3016a056bfce61087")
         .then(response => response.json())
         .then(data => {
@@ -47,10 +44,11 @@ function display() {
 
             windSpeed.innerText = "WIND SPEED: " + windSpeedValue + " M/S";
 
-
             fetch("https://openweathermap.org/img/wn/" + iconId + "@2x.png").then(icon.src = "https://openweathermap.org/img/wn/" + iconId + ".png")
         })
         .catch(errorhandler);
+    document.body.style.backgroundImage =
+        "url('https://source.unsplash.com/1600x900/?" + city + "')";
 }
 
 searchButton.addEventListener("click", display);
