@@ -2,9 +2,9 @@
 # Weather on web
 
 "Weather on web" provides information such as current temperature, weather description, humidity, etc., based on the location(country/state/city) given by the user.
-## Demo
+## Live Project
 
-[view project](https://weatheronweb-neeraj.netlify.app/)
+[click here](https://weatheronweb-neeraj.netlify.app/)
 
 
 ## Tech Stack
