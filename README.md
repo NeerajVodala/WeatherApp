@@ -19,9 +19,9 @@
 ## Screenshots
 
 ![Landing page](/images/land-page.JPG)
-![Demo 1](/images/land-page.JPG)
-![Demo 2](/images/land-page.JPG)
-![Demo 3](/images/land-page.JPG)
+![Demo 1](/images/demo1.JPG)
+![Demo 2](/images/demo-2.JPG)
+![Demo 3](/images/demo-3.JPG)
 ## Upcoming Features
 
 - Light/dark mode toggle
