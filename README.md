@@ -13,7 +13,7 @@
 
 **API:** openweathermap, unsplash
 
-**Deployed** using Netlify
+**Deployed** from Github using Netlify
 
 
 ## Screenshots
